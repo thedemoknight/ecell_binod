@@ -1,0 +1,58 @@
+form {
+  border: 3px solid #f1f1f1;
+  /*background: radial-gradient(#ddd,#A1FFCE);*/
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+/* Setting button style */
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Adding hover effect for button */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Login image */
+img.avatar {
+  margin: 20px 200px 20px;
+  border-radius: 50%;
+}
+
+/* Total form positioning */
+.total{
+  width: 650px;
+  height: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.forgot{
+  display: inline-block;
+  margin-left: 510px;
+}
+
+.new{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.new a{
+  text-decoration: none;
+  color: #000;
+}

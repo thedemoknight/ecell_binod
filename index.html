@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BINOD MERCHANDISE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- ----------header start--------- -->
+	
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="images/binodlogo.png" width="500px" height="100px"></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="loginn.html">Account</a></li>
+				</ul>
+			</nav>
+			<a href=""><img src="images/cart.png" width="38px" height="38px"></a>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<h1>Give Your Wardrobe<br>A New BINOD!</h1>
+				<p>From a viral comment in 2020 to here. It's about consistency. Consistent<br>hard work gains success.</p>
+				<a href="" class="btn">Explore Now &#10132;</a>
+			</div>
+			<div class="col-2">
+				<img src="images/binodmain.png">
+			</div>
+		</div>
+			<!-- image slider start -->
+		<main>
+		<div class="slider">
+			<div class="slides">
+				<!-- radio buttons start -->
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+				<input type="radio" name="radio-btn" id="radio4">
+				<!-- radio buttons end -->
+				<!-- slide images start -->
+				<div class="slide first">
+					<a href="#mask"><img src="images/bmask.png"></a>
+				</div>
+				<div class="slide">
+					<a href="#tshirt"><img src="images/btshirt.png"></a>
+				</div>
+				<div class="slide">
+					<a href="#hoodie"><img src="images/hoodie1.jfif"></a>
+				</div>
+				<div class="slide">
+					<a href="#decor"><img src="images/bcup.jpg"></a>
+				</div>
+				<!-- slide images end -->
+				<!-- auto navigation start -->
+				<div class="navigation-auto">
+					<div class="auto-btn1"></div>
+					<div class="auto-btn2"></div>
+					<div class="auto-btn3"></div>
+					<div class="auto-btn4"></div>
+				</div>
+				<!-- auto navigation end -->
+				</div>
+				<!-- manual navigation start -->
+				<div class="navigation-manual">
+					<label for="radio1" class="manual-btn"></label>
+					<label for="radio2" class="manual-btn"></label>
+					<label for="radio3" class="manual-btn"></label>
+					<label for="radio4" class="manual-btn"></label>
+				</div>
+				<!-- manual navigation end -->
+		</div>
+		<!-- image slider end -->
+
+			<!-- java script part -->
+			<script type="text/javascript">
+				var counter = 1;
+				setInterval(function(){
+					document.getElementById('radio' + counter).checked = true;
+					counter++;
+					if (counter > 4) {
+						counter = 1;
+					}
+				}, 5000);
+			</script>
+
+		
+	</div>
+	</div>
+
+<!-- ----------header end---------- -->
+
+<hr>
+
+<!-- ---------------main body start------------- -->
+
+	<!-- categories -->
+	<div class="categories">
+		<div class="small-container">
+			<h1 class="heading" id="tshirt"><u class="under">T-Shirts</u></h1>
+			<div class="row">
+				<div class="col-3">
+					<div class="zoom"><a href="tshirt1.html" target="blerkfjank"><img src="images/tshirt1.png" width="225px" height="325px"></a></div>
+					<h4>Just Binod It.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 499.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="tshirt2.html" target="blafank"><img src="images/tshirt2.png" width="225px" height="325px"></a></div>
+					<h4>Naam Toh Suna Hi Hoga.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 549.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="tshirt3.html" target="sdgfe"><img src="images/tshirt3.jpeg" width="225px" height="325px"></a></div>
+					<h4>Binod.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 599.00</p>
+				</div>
+			</div>
+		</div>
+<hr>
+<br><br>
+
+		<div class="small-container">
+			<h1 class="heading" id="mask"><u class="under">Masks</u></h1>
+			<div class="row">
+				<div class="col-3">
+					<div class="zoom"><a href="mask1.html" target="fewhe"><img src="images/bmask1.jpg" width="225px" height="325px"></a></div>
+					<h4>Keep Calm & Binod.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 119.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="mask2.html" target="agaerg"><img src="images/bmask2.jpg" width="225px" height="325px"></a></div>
+					<h4>Binod Hai Kaun?</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 179.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="mask3.html" target="agergh"><img src="images/bmask3.jpg" width="225px" height="325px"></a></div>
+					<h4>BBT Binod.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>₹ 199.00</p>
+				</div>
+			</div>
+		</div>
+
+<hr>
+<br><br>
+
+		<div class="small-container">
+			<h1 class="heading" id="hoodie"><u class="under">Hoodies</u></h1>
+			<div class="row">
+				<div class="col-3">
+					<div class="zoom"><a href="hoodie1.html" target="hrnr"><img src="images/bhoodie1.png" width="225px" height="325px"></a></div>
+					<h4>I am Binod.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 899.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="hoodie2.html" target="ewhnkejn"><img src="images/bhoodie2.jpg" width="225px" height="325px"></a></div>
+					<h4>The Myth Binod.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 799.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="hoodie3.html" target="aergk"><img src="images/bhoodie3.png" width="225px" height="325px"></a></div>
+					<h4>Binod...Binod...Binod.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 799.00</p>
+				</div>
+			</div>
+		</div>
+
+
+<hr>
+<br><br>
+
+		<div class="small-container">
+			<h1 class="heading" id="decor"><u class="under">Decor</u></h1>
+			<div class="row">
+				<div class="col-3">
+					<div class="zoom"><a href="decor1.html" target="asdkfbl"><img src="images/bdecor2.jpg" width="225px" height="325px"></a></div>
+					<h4>I am Binod cushion.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 199.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="decor2.html" target="werkgjbia"><img src="images/bcup2.png" width="225px" height="325px"></a></div>
+					<h4>Literally no one.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					<p>₹ 249.00</p>
+				</div>
+				<div class="col-3">
+					<div class="zoom"><a href="decor3.html" target="oahheu"><img src="images/bdecor3.jpg" width="225px" height="325px"></a></div>
+					<h4>Binod iPhone soft case.</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>₹ 299.00</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+<!-- ---------------main body end------------- -->
+
+
+<!-- ---------footer start--------- -->
+
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-2">
+				<a href=""><img src="images/bm.png" width="300px" height="200px"></a>
+			</div>
+			<div class="col-2">
+				<ul>
+					<li><a href="">Contact Us</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Careers</a></li>
+					<li><a href="">FAQs</a></li>
+					<li><a href="">Return Policy</a></li>
+					<li><a href="">Terms Of Use</a></li>
+				</ul>
+			</div>
+			<div class="col-2">
+				<ul>
+					<li><b><u>SOCIAL</u></b></li>
+					<li><a href="">Facebook</a></li>
+					<li><a href="">Twitter</a></li>
+					<li><a href="">YouTube</a></li>
+					<li><a href="">Instagram</a></li>
+				</ul>
+			</div>
+		</div>
+		
+
+
+
+
+	</div>
+
+<!-- ---------footer end--------- -->
+
+
+</body>
+</html>
